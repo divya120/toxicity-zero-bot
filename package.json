@@ -1,0 +1,31 @@
+{
+  "name": "toxicityzerodemo",
+  "version": "1.0.0",
+  "description": "Discord Bot Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divya120/ToxixityZeroBot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "toxicity"
+  ],
+  "author": "DivyaK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divya120/ToxixityZeroBot/issues"
+  },
+  "homepage": "https://github.com/divya120/ToxixityZeroBot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.4.1",
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^3.16.0",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^13.6.0"
+  }
+}
